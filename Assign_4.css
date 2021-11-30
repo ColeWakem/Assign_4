@@ -1,8 +1,137 @@
 body{
   background-color: white;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 #border1{
-  background-color: #0eb6d8;
-  height:200px;
+  background-color: #FFDA59;
+  border: 10px solid #FFBE59;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  position: relative;
+  height: 200px;
+}
+
+#border2{
+  background-color: #FFDA59;
+  border: 10px solid #FFBE59;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 350px;
+}
+
+#border3{
+  background-color: rgb(69, 118, 172);
+  border: 1px solid black;
+  height: 300px;
+  width: 500px;
+  float: right;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#border4{
+  background-color: #FFDA59;
+  border: 10px solid #FFBE59;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
+}
+
+#border5{
+  background-color: rgb(69, 118, 172);
+  border: 1px solid black;
+  margin-left: 550px;
+  margin-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 700px;
+}
+
+#border6{
+  background-color: #FFDA59;
+  border: 10px solid #FFBE59;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  height: 350px;
+  width: 900px;
+}
+
+#border7{
+  background-color: #FFDA59;
+  border: 10px solid #FFBE59;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  float: right;
+  height: 350px;
+  width: 900px;
+}
+
+#image1{
+ border: 1px solid black;
+ float: right;
+ margin-right: 30px;
+ margin-top: 25px;
+}
+
+#image2{
+ border: 1px solid black;
+ margin-right: 25px;
+ margin-left: 25px;
+ margin-top: 25px;
+}
+
+#image3{
+ border: 1px solid black;
+ margin-left: 25px;
+ margin-top: 25px;
+ float: left;
+}
+
+.button1{
+  color: white;
+  font-size: 20px;
+  font-family: Times, "Times New Roman", Georgia, serif;
+  margin-left: 30px;
+  margin-top: 75px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(69, 118, 172);
+}
+
+.button1:hover {
+    background-color: rgb(99, 148, 202);
+}
+
+.Text1{
+ font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.Text2{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ padding-left: 50px;
+ padding-right: 50px;
+ font-size: 20px;
+}
+
+.Text3{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
 }
