@@ -1,5 +1,5 @@
 body{
-  background-color: white;
+  background-color: rgb(69, 118, 172);
   padding: 0px;
   margin: 0px;
   border: 0px;
@@ -66,8 +66,8 @@ body{
   margin-right: 20px;
   margin-bottom: 20px;
   float: left;
-  height: 350px;
-  width: 900px;
+  height: 775px;
+  width: 600px;
 }
 
 #border7{
@@ -77,8 +77,19 @@ body{
   margin-bottom: 20px;
   margin-right: 20px;
   float: right;
-  height: 350px;
-  width: 900px;
+  height: 775px;
+  width: 1200px;
+}
+
+#border8{
+  background-color: #FFDA59;
+  border: 10px solid #FFBE59;
+  margin-top: 835px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  height: 100px;
 }
 
 #image1{
@@ -117,13 +128,68 @@ body{
 
 #image4 {border-radius: 8px;}
 
-#image5{
- position: relative;
- margin-left: 70px;
- border: 1px solid black;
+.container {               /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade I used this code from here to where ill put a stop*/
+  position: relative;
+  width: 100%;
 }
 
-#image5 {border-radius: 8px;}
+.image5{
+ border: 1px solid black;
+ display: block;
+ margin-left: 199px;
+}
+
+.image5 {border-radius: 8px;}
+
+.overlay{
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 199px;
+  right: 199px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(69, 118, 172);
+}
+
+.overlay {border-radius: 8px;}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}                        /*STOP*/
+
+#image6{
+ border: 1px solid black;
+ display: block;
+ margin-left: 108px;
+ margin-top: 65px;
+ float: left;
+}
+
+#image6 {border-radius: 8px;}
+
+#image7{
+ border: 1px solid black;
+ display: block;
+ float: right;
+ margin-right: 108px;
+ margin-top: 125px;
+}
+
+#image7 {border-radius: 8px;}
 
 .button1{
   color: white;
@@ -153,6 +219,7 @@ body{
 
 .text1{
  font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
 }
 
 .text2{
@@ -160,7 +227,7 @@ body{
  color: white;
  padding-left: 50px;
  padding-right: 50px;
- font-size: 20px;
+ font-size: 23px;
 }
 
 .text3{
@@ -173,6 +240,83 @@ body{
  color: white;
  background-color: rgb(69, 118, 172);
  border: 1px solid black;
- margin-left: 310px;
- margin-right: 320px;
+ margin-left: 175px;
+ margin-right: 175px;
+}
+
+.text5{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ background-color: rgb(69, 118, 172);
+ border: 1px solid black;
+ margin-right: 170px;
+ margin-left: 780px;
+}
+
+.text6{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ border: 1px solid black;
+ font-size: 20px;
+ padding: 20px;
+ background-color: rgb(69, 118, 172);
+ margin-left: 715px;
+ margin-right: 105px;
+}
+
+.text7{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ background-color: rgb(69, 118, 172);
+ border: 1px solid black;
+ margin-right: 780px;
+ margin-left: 170px;
+}
+
+.text8{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ border: 1px solid black;
+ font-size: 20px;
+ padding: 20px;
+ background-color: rgb(69, 118, 172);
+ margin-left: 105px;
+ margin-right: 715px;
+}
+
+.text9{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ background-color: rgb(69, 118, 172);
+ border: 1px solid black;
+ margin-top: 35px;
+ margin-left: 50px;
+ width: 100px;
+ float: left;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-top: 30px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa {border-radius: 8px;}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
