@@ -23,6 +23,7 @@ body{
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  position: relative;
   height: 350px;
 }
 
@@ -37,6 +38,7 @@ body{
   margin-right: 25px;
   padding-left: 25px;
   padding-right: 25px;
+  position: relative;
 }
 
 #border4{
@@ -46,6 +48,7 @@ body{
   margin-left: 20px;
   margin-right: 20px;
   height: 300px;
+  position: relative;
 }
 
 #border5{
@@ -68,6 +71,7 @@ body{
   float: left;
   height: 775px;
   width: 600px;
+  position: relative;
 }
 
 #border7{
@@ -79,6 +83,7 @@ body{
   float: right;
   height: 775px;
   width: 1200px;
+  position: relative;
 }
 
 #border8{
@@ -97,36 +102,32 @@ body{
  float: right;
  margin-right: 30px;
  margin-top: 25px;
+ position: relative;
 }
-
-#image1 {border-radius: 8px;}
 
 #image2{
  border: 1px solid black;
  margin-right: 25px;
  margin-left: 25px;
  margin-top: 25px;
+ position: relative;
 }
-
-#image2 {border-radius: 8px;}
 
 #image3{
  border: 1px solid black;
  margin-left: 25px;
  margin-top: 25px;
  float: left;
+ position: relative;
 }
-
-#image3 {border-radius: 8px;}
 
 #image4{
  border: 1px solid black;
  margin-top: 25px;
  margin-right: 25px;
  margin-left: 785px;
+ position: relative;
 }
-
-#image4 {border-radius: 8px;}
 
 .container {               /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade I used this code from here to where ill put a stop*/
   position: relative;
@@ -177,19 +178,19 @@ body{
  margin-left: 108px;
  margin-top: 65px;
  float: left;
+ position: relative;
 }
-
-#image6 {border-radius: 8px;}
 
 #image7{
  border: 1px solid black;
  display: block;
  float: right;
  margin-right: 108px;
- margin-top: 125px;
+ margin-top: 103px;
+ position: relative;
 }
 
-#image7 {border-radius: 8px;}
+#image1,#image2,#image3,#image4,#image6,#image7,.text6,.text8 {border-radius: 8px;}
 
 .button1{
   color: white;
@@ -204,6 +205,7 @@ body{
   padding-bottom: 10px;
   float: left;
   background-color: rgb(69, 118, 172);
+  position: relative;
 }
 
 .button1 {border-radius: 8px;}
@@ -221,6 +223,7 @@ body{
 .text1{
  font-family: Times, "Times New Roman", Georgia, serif;
  color: white;
+ position: relative;
 }
 
 .text2{
@@ -229,11 +232,13 @@ body{
  padding-left: 50px;
  padding-right: 50px;
  font-size: 23px;
+ position: relative;
 }
 
 .text3{
  font-family: Times, "Times New Roman", Georgia, serif;
  color: white;
+ position: relative;
 }
 
 .text4{
@@ -243,6 +248,7 @@ body{
  border: 1px solid black;
  margin-left: 175px;
  margin-right: 175px;
+ position: relative;
 }
 
 .text5{
@@ -250,8 +256,9 @@ body{
  color: white;
  background-color: rgb(69, 118, 172);
  border: 1px solid black;
- margin-right: 170px;
- margin-left: 780px;
+ margin-right: 175px;
+ margin-left: 710px;
+ position: relative;
 }
 
 .text6{
@@ -261,8 +268,9 @@ body{
  font-size: 20px;
  padding: 20px;
  background-color: rgb(69, 118, 172);
- margin-left: 715px;
+ margin-left: 640px;
  margin-right: 105px;
+ position: relative;
 }
 
 .text7{
@@ -270,8 +278,9 @@ body{
  color: white;
  background-color: rgb(69, 118, 172);
  border: 1px solid black;
- margin-right: 780px;
- margin-left: 170px;
+ margin-right: 710px;
+ margin-left: 175px;
+ position: relative;
 }
 
 .text8{
@@ -282,7 +291,8 @@ body{
  padding: 20px;
  background-color: rgb(69, 118, 172);
  margin-left: 105px;
- margin-right: 715px;
+ margin-right: 640px;
+ position: relative;
 }
 
 .text9{
@@ -294,9 +304,19 @@ body{
  margin-left: 50px;
  width: 100px;
  float: left;
+ position: relative;
 }
 
-.fa {
+.text10{
+ font-family: Times, "Times New Roman", Georgia, serif;
+ color: white;
+ padding-left: 50px;
+ padding-right: 50px;
+ font-size: 23px;
+ position: relative;
+}
+
+.fa {                     /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons*/
   padding: 10px;
   font-size: 30px;
   margin-left: 25px;
@@ -304,6 +324,7 @@ body{
   float: left;
   text-align: center;
   text-decoration: none;
+  position: relative;
 }
 
 .fa {border-radius: 8px;}
@@ -320,4 +341,4 @@ body{
 .fa-twitter {
   background: #55ACEE;
   color: white;
-}
+}                        /*STOP*/
