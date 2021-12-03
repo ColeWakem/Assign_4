@@ -129,7 +129,7 @@ body{
  position: relative;
 }
 
-.container {               /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade I used this code from here to where ill put a stop*/
+.container {               /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade I used this code from here to where ill put a stop Dec 3 2021*/
   position: relative;
   width: 100%;
 }
@@ -345,7 +345,7 @@ body{
  position: relative;
 }
 
-.fa {                     /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons*/
+.fa {                     /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons Dec 3 2021*/
   padding: 10px;
   font-size: 30px;
   margin-left: 25px;
